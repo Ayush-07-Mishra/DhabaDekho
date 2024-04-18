@@ -8,7 +8,6 @@ function Marquee() {
             <motion.h1 initial={{x:0}} animate={{x:"-100%"}} transition={{ease : "linear", repeat: Infinity,duration: 10}} className='text-[8vw] leading-none font-["Founders Grotesk condensed"] font-extrabold uppercase'>SpiceTrail-Explorer</motion.h1>
             <motion.h1 initial={{x:0}} animate={{x:"-100%"}} transition={{ease : "linear", repeat: Infinity,duration: 10}} className='text-[8vw] leading-none font-["Founders Grotesk condensed"] font-extrabold uppercase'>SpiceTrail-Explorer</motion.h1>
             <motion.h1 initial={{x:0}} animate={{x:"-100%"}} transition={{ease : "linear", repeat: Infinity,duration: 10}} className='text-[8vw] leading-none font-["Founders Grotesk condensed"] font-extrabold uppercase'>SpiceTrail-Explorer</motion.h1>
-            
         </div>
     </div>
   )

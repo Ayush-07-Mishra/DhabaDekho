@@ -1,6 +1,5 @@
 import React from "react";
 import { GrSearch } from "react-icons/gr";
-import { motion } from 'framer-motion';
 import Marquee from './Marquee';
 import About from './About'; 
 

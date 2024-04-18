@@ -17,7 +17,7 @@ const loadScript = (url, callback) => {
   } else {
     script.onload = () => callback();
   }
-
+  
   script.src = url;
   document.getElementsByTagName("head")[0].appendChild(script);
 };
@@ -30,9 +30,6 @@ const SearchLocationInput = ({ setRestaurantLocations }) => {
     autoComplete = new window.google.maps.places.Autocomplete(
       autoCompleteRef.current,
       {
-        // Specify additional options for autocomplete if needed
-        // types: ["establishment"],
-        // fields: ["name", "geometry", "formatted_address"],
         componentRestrictions: { country: "IN" },
       }
     );
@@ -55,7 +52,7 @@ const SearchLocationInput = ({ setRestaurantLocations }) => {
     };
 
     console.log({ latLng });
-    setRestaurantLocations([latLng]); // Update the restaurant locations based on user input
+    setRestaurantLocations([latLng]); 
   };
 
   useEffect(() => {
