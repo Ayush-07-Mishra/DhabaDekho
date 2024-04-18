@@ -9,7 +9,7 @@ const MapComponent = ({ restaurants }) => {
 
   if (loadError) return "Error";
   if (!isLoaded) return "Loading Maps...";
-
+  
   return (
     <div style={{ marginTop: "50px" }}>
       <GoogleMap
